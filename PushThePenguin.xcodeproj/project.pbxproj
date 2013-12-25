@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1C6972B186A89A500FE0D36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C6972A186A89A500FE0D36 /* Foundation.framework */; };
+		C1C6972D186A89A500FE0D36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C6972C186A89A500FE0D36 /* CoreGraphics.framework */; };
+		C1C6972F186A89A500FE0D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C6972E186A89A500FE0D36 /* UIKit.framework */; };
+		C1C69731186A89A500FE0D36 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C69730186A89A500FE0D36 /* SpriteKit.framework */; };
+		C1C69737186A89A500FE0D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1C69735186A89A500FE0D36 /* InfoPlist.strings */; };
+		C1C69739186A89A500FE0D36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C69738186A89A500FE0D36 /* main.m */; };
+		C1C6973D186A89A500FE0D36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C6973C186A89A500FE0D36 /* AppDelegate.m */; };
+		C1C69740186A89A500FE0D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C6973E186A89A500FE0D36 /* Main.storyboard */; };
+		C1C69743186A89A500FE0D36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C69742186A89A500FE0D36 /* ViewController.m */; };
+		C1C69746186A89A500FE0D36 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C69745186A89A500FE0D36 /* MyScene.m */; };
+		C1C69748186A89A500FE0D36 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C69747186A89A500FE0D36 /* Spaceship.png */; };
+		C1C6974A186A89A500FE0D36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C69749186A89A500FE0D36 /* Images.xcassets */; };
+		C1C69751186A89A500FE0D36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C69750186A89A500FE0D36 /* XCTest.framework */; };
+		C1C69752186A89A500FE0D36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C6972A186A89A500FE0D36 /* Foundation.framework */; };
+		C1C69753186A89A500FE0D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C6972E186A89A500FE0D36 /* UIKit.framework */; };
+		C1C6975B186A89A500FE0D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1C69759186A89A500FE0D36 /* InfoPlist.strings */; };
+		C1C6975D186A89A500FE0D36 /* PushThePenguinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C6975C186A89A500FE0D36 /* PushThePenguinTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1C69754186A89A500FE0D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C6971F186A89A500FE0D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C69726186A89A500FE0D36;
+			remoteInfo = PushThePenguin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1C69727186A89A500FE0D36 /* PushThePenguin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushThePenguin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C6972A186A89A500FE0D36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1C6972C186A89A500FE0D36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1C6972E186A89A500FE0D36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1C69730186A89A500FE0D36 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		C1C69734186A89A500FE0D36 /* PushThePenguin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushThePenguin-Info.plist"; sourceTree = "<group>"; };
+		C1C69736186A89A500FE0D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1C69738186A89A500FE0D36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1C6973A186A89A500FE0D36 /* PushThePenguin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushThePenguin-Prefix.pch"; sourceTree = "<group>"; };
+		C1C6973B186A89A500FE0D36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1C6973C186A89A500FE0D36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1C6973F186A89A500FE0D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1C69741186A89A500FE0D36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1C69742186A89A500FE0D36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1C69744186A89A500FE0D36 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		C1C69745186A89A500FE0D36 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		C1C69747186A89A500FE0D36 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		C1C69749186A89A500FE0D36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1C6974F186A89A500FE0D36 /* PushThePenguinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushThePenguinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C69750186A89A500FE0D36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C1C69758186A89A500FE0D36 /* PushThePenguinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushThePenguinTests-Info.plist"; sourceTree = "<group>"; };
+		C1C6975A186A89A500FE0D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1C6975C186A89A500FE0D36 /* PushThePenguinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushThePenguinTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1C69724186A89A500FE0D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C6972D186A89A500FE0D36 /* CoreGraphics.framework in Frameworks */,
+				C1C6972F186A89A500FE0D36 /* UIKit.framework in Frameworks */,
+				C1C69731186A89A500FE0D36 /* SpriteKit.framework in Frameworks */,
+				C1C6972B186A89A500FE0D36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C6974C186A89A500FE0D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C69751186A89A500FE0D36 /* XCTest.framework in Frameworks */,
+				C1C69753186A89A500FE0D36 /* UIKit.framework in Frameworks */,
+				C1C69752186A89A500FE0D36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1C6971E186A89A500FE0D36 = {
+			isa = PBXGroup;
+			children = (
+				C1C69732186A89A500FE0D36 /* PushThePenguin */,
+				C1C69756186A89A500FE0D36 /* PushThePenguinTests */,
+				C1C69729186A89A500FE0D36 /* Frameworks */,
+				C1C69728186A89A500FE0D36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1C69728186A89A500FE0D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1C69727186A89A500FE0D36 /* PushThePenguin.app */,
+				C1C6974F186A89A500FE0D36 /* PushThePenguinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1C69729186A89A500FE0D36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1C6972A186A89A500FE0D36 /* Foundation.framework */,
+				C1C6972C186A89A500FE0D36 /* CoreGraphics.framework */,
+				C1C6972E186A89A500FE0D36 /* UIKit.framework */,
+				C1C69730186A89A500FE0D36 /* SpriteKit.framework */,
+				C1C69750186A89A500FE0D36 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1C69732186A89A500FE0D36 /* PushThePenguin */ = {
+			isa = PBXGroup;
+			children = (
+				C1C6973B186A89A500FE0D36 /* AppDelegate.h */,
+				C1C6973C186A89A500FE0D36 /* AppDelegate.m */,
+				C1C6973E186A89A500FE0D36 /* Main.storyboard */,
+				C1C69741186A89A500FE0D36 /* ViewController.h */,
+				C1C69742186A89A500FE0D36 /* ViewController.m */,
+				C1C69744186A89A500FE0D36 /* MyScene.h */,
+				C1C69745186A89A500FE0D36 /* MyScene.m */,
+				C1C69747186A89A500FE0D36 /* Spaceship.png */,
+				C1C69749186A89A500FE0D36 /* Images.xcassets */,
+				C1C69733186A89A500FE0D36 /* Supporting Files */,
+			);
+			path = PushThePenguin;
+			sourceTree = "<group>";
+		};
+		C1C69733186A89A500FE0D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1C69734186A89A500FE0D36 /* PushThePenguin-Info.plist */,
+				C1C69735186A89A500FE0D36 /* InfoPlist.strings */,
+				C1C69738186A89A500FE0D36 /* main.m */,
+				C1C6973A186A89A500FE0D36 /* PushThePenguin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1C69756186A89A500FE0D36 /* PushThePenguinTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C6975C186A89A500FE0D36 /* PushThePenguinTests.m */,
+				C1C69757186A89A500FE0D36 /* Supporting Files */,
+			);
+			path = PushThePenguinTests;
+			sourceTree = "<group>";
+		};
+		C1C69757186A89A500FE0D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1C69758186A89A500FE0D36 /* PushThePenguinTests-Info.plist */,
+				C1C69759186A89A500FE0D36 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1C69726186A89A500FE0D36 /* PushThePenguin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C69760186A89A500FE0D36 /* Build configuration list for PBXNativeTarget "PushThePenguin" */;
+			buildPhases = (
+				C1C69723186A89A500FE0D36 /* Sources */,
+				C1C69724186A89A500FE0D36 /* Frameworks */,
+				C1C69725186A89A500FE0D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushThePenguin;
+			productName = PushThePenguin;
+			productReference = C1C69727186A89A500FE0D36 /* PushThePenguin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1C6974E186A89A500FE0D36 /* PushThePenguinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C69763186A89A500FE0D36 /* Build configuration list for PBXNativeTarget "PushThePenguinTests" */;
+			buildPhases = (
+				C1C6974B186A89A500FE0D36 /* Sources */,
+				C1C6974C186A89A500FE0D36 /* Frameworks */,
+				C1C6974D186A89A500FE0D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C69755186A89A500FE0D36 /* PBXTargetDependency */,
+			);
+			name = PushThePenguinTests;
+			productName = PushThePenguinTests;
+			productReference = C1C6974F186A89A500FE0D36 /* PushThePenguinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1C6971F186A89A500FE0D36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Derrick J Chie";
+				TargetAttributes = {
+					C1C6974E186A89A500FE0D36 = {
+						TestTargetID = C1C69726186A89A500FE0D36;
+					};
+				};
+			};
+			buildConfigurationList = C1C69722186A89A500FE0D36 /* Build configuration list for PBXProject "PushThePenguin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1C6971E186A89A500FE0D36;
+			productRefGroup = C1C69728186A89A500FE0D36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1C69726186A89A500FE0D36 /* PushThePenguin */,
+				C1C6974E186A89A500FE0D36 /* PushThePenguinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1C69725186A89A500FE0D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C69737186A89A500FE0D36 /* InfoPlist.strings in Resources */,
+				C1C6974A186A89A500FE0D36 /* Images.xcassets in Resources */,
+				C1C69748186A89A500FE0D36 /* Spaceship.png in Resources */,
+				C1C69740186A89A500FE0D36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C6974D186A89A500FE0D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C6975B186A89A500FE0D36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1C69723186A89A500FE0D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C69746186A89A500FE0D36 /* MyScene.m in Sources */,
+				C1C69743186A89A500FE0D36 /* ViewController.m in Sources */,
+				C1C6973D186A89A500FE0D36 /* AppDelegate.m in Sources */,
+				C1C69739186A89A500FE0D36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C6974B186A89A500FE0D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C6975D186A89A500FE0D36 /* PushThePenguinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1C69755186A89A500FE0D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C69726186A89A500FE0D36 /* PushThePenguin */;
+			targetProxy = C1C69754186A89A500FE0D36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1C69735186A89A500FE0D36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C69736186A89A500FE0D36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1C6973E186A89A500FE0D36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C6973F186A89A500FE0D36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1C69759186A89A500FE0D36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C6975A186A89A500FE0D36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1C6975E186A89A500FE0D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1C6975F186A89A500FE0D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1C69761186A89A500FE0D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushThePenguin/PushThePenguin-Prefix.pch";
+				INFOPLIST_FILE = "PushThePenguin/PushThePenguin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C1C69762186A89A500FE0D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushThePenguin/PushThePenguin-Prefix.pch";
+				INFOPLIST_FILE = "PushThePenguin/PushThePenguin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C1C69764186A89A500FE0D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PushThePenguin.app/PushThePenguin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushThePenguin/PushThePenguin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PushThePenguinTests/PushThePenguinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C1C69765186A89A500FE0D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PushThePenguin.app/PushThePenguin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushThePenguin/PushThePenguin-Prefix.pch";
+				INFOPLIST_FILE = "PushThePenguinTests/PushThePenguinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1C69722186A89A500FE0D36 /* Build configuration list for PBXProject "PushThePenguin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C6975E186A89A500FE0D36 /* Debug */,
+				C1C6975F186A89A500FE0D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C69760186A89A500FE0D36 /* Build configuration list for PBXNativeTarget "PushThePenguin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C69761186A89A500FE0D36 /* Debug */,
+				C1C69762186A89A500FE0D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1C69763186A89A500FE0D36 /* Build configuration list for PBXNativeTarget "PushThePenguinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C69764186A89A500FE0D36 /* Debug */,
+				C1C69765186A89A500FE0D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1C6971F186A89A500FE0D36 /* Project object */;
+}
