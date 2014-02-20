@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14DD0C318703B4900216F2E /* MagnetNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C14DD0C218703B4900216F2E /* MagnetNode.m */; };
+		C14DD0CB1873490300216F2E /* ObstacleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C14DD0CA1873490300216F2E /* ObstacleNode.m */; };
+		C14DD0CE1875450300216F2E /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = C14DD0CD1875450300216F2E /* Level.m */; };
+		C14DD0D11875451E00216F2E /* LevelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C14DD0D01875451E00216F2E /* LevelNode.m */; };
+		C14DD0D718754DE100216F2E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C14DD0D618754DE100216F2E /* HomeViewController.m */; };
+		C14DD0EE1878873C00216F2E /* LevelSelectScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C14DD0ED1878873C00216F2E /* LevelSelectScene.m */; };
+		C14DD0F1187894B200216F2E /* LevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C14DD0F0187894B200216F2E /* LevelSelectViewController.m */; };
+		C14DD0F31883AC6500216F2E /* LevelBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C14DD0F21883AC6500216F2E /* LevelBackground.png */; };
+		C14DD0F51883AE8A00216F2E /* LevelNode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C14DD0F41883AE8A00216F2E /* LevelNode@2x.png */; };
 		C1C6972B186A89A500FE0D36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C6972A186A89A500FE0D36 /* Foundation.framework */; };
 		C1C6972D186A89A500FE0D36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C6972C186A89A500FE0D36 /* CoreGraphics.framework */; };
 		C1C6972F186A89A500FE0D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C6972E186A89A500FE0D36 /* UIKit.framework */; };
@@ -15,15 +24,20 @@
 		C1C69739186A89A500FE0D36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C69738186A89A500FE0D36 /* main.m */; };
 		C1C6973D186A89A500FE0D36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C6973C186A89A500FE0D36 /* AppDelegate.m */; };
 		C1C69740186A89A500FE0D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C6973E186A89A500FE0D36 /* Main.storyboard */; };
-		C1C69743186A89A500FE0D36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C69742186A89A500FE0D36 /* ViewController.m */; };
-		C1C69746186A89A500FE0D36 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C69745186A89A500FE0D36 /* MyScene.m */; };
-		C1C69748186A89A500FE0D36 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C69747186A89A500FE0D36 /* Spaceship.png */; };
 		C1C6974A186A89A500FE0D36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C69749186A89A500FE0D36 /* Images.xcassets */; };
 		C1C69751186A89A500FE0D36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C69750186A89A500FE0D36 /* XCTest.framework */; };
 		C1C69752186A89A500FE0D36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C6972A186A89A500FE0D36 /* Foundation.framework */; };
 		C1C69753186A89A500FE0D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C6972E186A89A500FE0D36 /* UIKit.framework */; };
 		C1C6975B186A89A500FE0D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1C69759186A89A500FE0D36 /* InfoPlist.strings */; };
 		C1C6975D186A89A500FE0D36 /* PushThePenguinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C6975C186A89A500FE0D36 /* PushThePenguinTests.m */; };
+		C1C6976B186A89D400FE0D36 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C69768186A89D400FE0D36 /* GameScene.m */; };
+		C1C6976C186A89D400FE0D36 /* HomeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C6976A186A89D400FE0D36 /* HomeScene.m */; };
+		C1C6976F186A89E600FE0D36 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C6976E186A89E600FE0D36 /* GameViewController.m */; };
+		C1C69776186A89F000FE0D36 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C69771186A89F000FE0D36 /* Background@2x.png */; };
+		C1C69777186A89F000FE0D36 /* NegativeNode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C69772186A89F000FE0D36 /* NegativeNode@2x.png */; };
+		C1C69778186A89F000FE0D36 /* Nest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C69773186A89F000FE0D36 /* Nest@2x.png */; };
+		C1C69779186A89F000FE0D36 /* Penguin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C69774186A89F000FE0D36 /* Penguin@2x.png */; };
+		C1C6977A186A89F000FE0D36 /* PositiveNode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C69775186A89F000FE0D36 /* PositiveNode@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +51,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C14DD0C118703B4900216F2E /* MagnetNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagnetNode.h; path = ../../MagnetNode.h; sourceTree = "<group>"; };
+		C14DD0C218703B4900216F2E /* MagnetNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MagnetNode.m; path = ../../MagnetNode.m; sourceTree = "<group>"; };
+		C14DD0C91873490300216F2E /* ObstacleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObstacleNode.h; path = ../../Node/ObstacleNode.h; sourceTree = "<group>"; };
+		C14DD0CA1873490300216F2E /* ObstacleNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObstacleNode.m; path = ../../Node/ObstacleNode.m; sourceTree = "<group>"; };
+		C14DD0CC1875450300216F2E /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Level.h; path = ../../Level.h; sourceTree = "<group>"; };
+		C14DD0CD1875450300216F2E /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Level.m; path = ../../Level.m; sourceTree = "<group>"; };
+		C14DD0CF1875451E00216F2E /* LevelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LevelNode.h; path = ../../LevelNode.h; sourceTree = "<group>"; };
+		C14DD0D01875451E00216F2E /* LevelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LevelNode.m; path = ../../LevelNode.m; sourceTree = "<group>"; };
+		C14DD0D518754DE100216F2E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../../HomeViewController.h; sourceTree = "<group>"; };
+		C14DD0D618754DE100216F2E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../../HomeViewController.m; sourceTree = "<group>"; };
+		C14DD0EC1878873C00216F2E /* LevelSelectScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectScene.h; sourceTree = "<group>"; };
+		C14DD0ED1878873C00216F2E /* LevelSelectScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectScene.m; sourceTree = "<group>"; };
+		C14DD0EF187894B200216F2E /* LevelSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectViewController.h; sourceTree = "<group>"; };
+		C14DD0F0187894B200216F2E /* LevelSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectViewController.m; sourceTree = "<group>"; };
+		C14DD0F21883AC6500216F2E /* LevelBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LevelBackground.png; sourceTree = "<group>"; };
+		C14DD0F41883AE8A00216F2E /* LevelNode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LevelNode@2x.png"; sourceTree = "<group>"; };
 		C1C69727186A89A500FE0D36 /* PushThePenguin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushThePenguin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C6972A186A89A500FE0D36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C1C6972C186A89A500FE0D36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,17 +79,24 @@
 		C1C6973B186A89A500FE0D36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1C6973C186A89A500FE0D36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C1C6973F186A89A500FE0D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1C69741186A89A500FE0D36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C1C69742186A89A500FE0D36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C1C69744186A89A500FE0D36 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
-		C1C69745186A89A500FE0D36 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		C1C69747186A89A500FE0D36 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		C1C69749186A89A500FE0D36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C1C6974F186A89A500FE0D36 /* PushThePenguinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushThePenguinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C69750186A89A500FE0D36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C1C69758186A89A500FE0D36 /* PushThePenguinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushThePenguinTests-Info.plist"; sourceTree = "<group>"; };
 		C1C6975A186A89A500FE0D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1C6975C186A89A500FE0D36 /* PushThePenguinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushThePenguinTests.m; sourceTree = "<group>"; };
+		C1C69766186A89D400FE0D36 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C1C69767186A89D400FE0D36 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = ../../GameScene.h; sourceTree = "<group>"; };
+		C1C69768186A89D400FE0D36 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameScene.m; path = ../../GameScene.m; sourceTree = "<group>"; };
+		C1C69769186A89D400FE0D36 /* HomeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeScene.h; path = ../../HomeScene.h; sourceTree = "<group>"; };
+		C1C6976A186A89D400FE0D36 /* HomeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeScene.m; path = ../../HomeScene.m; sourceTree = "<group>"; };
+		C1C6976D186A89E600FE0D36 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../../GameViewController.h; sourceTree = "<group>"; };
+		C1C6976E186A89E600FE0D36 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../../GameViewController.m; sourceTree = "<group>"; };
+		C1C69771186A89F000FE0D36 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		C1C69772186A89F000FE0D36 /* NegativeNode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NegativeNode@2x.png"; sourceTree = "<group>"; };
+		C1C69773186A89F000FE0D36 /* Nest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nest@2x.png"; sourceTree = "<group>"; };
+		C1C69774186A89F000FE0D36 /* Penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Penguin@2x.png"; sourceTree = "<group>"; };
+		C1C69775186A89F000FE0D36 /* PositiveNode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PositiveNode@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +124,183 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C14DD0D81878830900216F2E /* Game Flow */ = {
+			isa = PBXGroup;
+			children = (
+				C14DD0D91878830900216F2E /* Model */,
+				C14DD0E81878834200216F2E /* Scene */,
+				C14DD0DA1878830900216F2E /* View */,
+				C14DD0DB1878830900216F2E /* View Controller */,
+			);
+			path = "Game Flow";
+			sourceTree = "<group>";
+		};
+		C14DD0D91878830900216F2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C14DD0C118703B4900216F2E /* MagnetNode.h */,
+				C14DD0C218703B4900216F2E /* MagnetNode.m */,
+				C14DD0C91873490300216F2E /* ObstacleNode.h */,
+				C14DD0CA1873490300216F2E /* ObstacleNode.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C14DD0DA1878830900216F2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C14DD0DB1878830900216F2E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C1C6976D186A89E600FE0D36 /* GameViewController.h */,
+				C1C6976E186A89E600FE0D36 /* GameViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		C14DD0DC1878830900216F2E /* Home Flow */ = {
+			isa = PBXGroup;
+			children = (
+				C14DD0DD1878830900216F2E /* Model */,
+				C14DD0E91878836A00216F2E /* Scene */,
+				C14DD0DE1878830900216F2E /* View */,
+				C14DD0DF1878830900216F2E /* View Controller */,
+			);
+			path = "Home Flow";
+			sourceTree = "<group>";
+		};
+		C14DD0DD1878830900216F2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C14DD0DE1878830900216F2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C14DD0DF1878830900216F2E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C14DD0D518754DE100216F2E /* HomeViewController.h */,
+				C14DD0D618754DE100216F2E /* HomeViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		C14DD0E01878830900216F2E /* Level Select Flow */ = {
+			isa = PBXGroup;
+			children = (
+				C14DD0E11878830900216F2E /* Model */,
+				C14DD0EA1878837500216F2E /* Scene */,
+				C14DD0E21878830900216F2E /* View */,
+				C14DD0E31878830900216F2E /* View Controller */,
+			);
+			name = "Level Select Flow";
+			path = "Level Selector Flow";
+			sourceTree = "<group>";
+		};
+		C14DD0E11878830900216F2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C14DD0CC1875450300216F2E /* Level.h */,
+				C14DD0CD1875450300216F2E /* Level.m */,
+				C14DD0CF1875451E00216F2E /* LevelNode.h */,
+				C14DD0D01875451E00216F2E /* LevelNode.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C14DD0E21878830900216F2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C14DD0E31878830900216F2E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C14DD0EF187894B200216F2E /* LevelSelectViewController.h */,
+				C14DD0F0187894B200216F2E /* LevelSelectViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		C14DD0E41878830900216F2E /* Setting Flow */ = {
+			isa = PBXGroup;
+			children = (
+				C14DD0E51878830900216F2E /* Model */,
+				C14DD0EB187883D200216F2E /* Scene */,
+				C14DD0E61878830900216F2E /* View */,
+				C14DD0E71878830900216F2E /* View Controller */,
+			);
+			path = "Setting Flow";
+			sourceTree = "<group>";
+		};
+		C14DD0E51878830900216F2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C14DD0E61878830900216F2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C14DD0E71878830900216F2E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		C14DD0E81878834200216F2E /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				C1C69767186A89D400FE0D36 /* GameScene.h */,
+				C1C69768186A89D400FE0D36 /* GameScene.m */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		C14DD0E91878836A00216F2E /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				C1C69769186A89D400FE0D36 /* HomeScene.h */,
+				C1C6976A186A89D400FE0D36 /* HomeScene.m */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		C14DD0EA1878837500216F2E /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				C14DD0EC1878873C00216F2E /* LevelSelectScene.h */,
+				C14DD0ED1878873C00216F2E /* LevelSelectScene.m */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		C14DD0EB187883D200216F2E /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 		C1C6971E186A89A500FE0D36 = {
 			isa = PBXGroup;
 			children = (
@@ -124,11 +338,11 @@
 				C1C6973B186A89A500FE0D36 /* AppDelegate.h */,
 				C1C6973C186A89A500FE0D36 /* AppDelegate.m */,
 				C1C6973E186A89A500FE0D36 /* Main.storyboard */,
-				C1C69741186A89A500FE0D36 /* ViewController.h */,
-				C1C69742186A89A500FE0D36 /* ViewController.m */,
-				C1C69744186A89A500FE0D36 /* MyScene.h */,
-				C1C69745186A89A500FE0D36 /* MyScene.m */,
-				C1C69747186A89A500FE0D36 /* Spaceship.png */,
+				C1C69766186A89D400FE0D36 /* Constants.h */,
+				C14DD0DC1878830900216F2E /* Home Flow */,
+				C14DD0E01878830900216F2E /* Level Select Flow */,
+				C14DD0D81878830900216F2E /* Game Flow */,
+				C14DD0E41878830900216F2E /* Setting Flow */,
 				C1C69749186A89A500FE0D36 /* Images.xcassets */,
 				C1C69733186A89A500FE0D36 /* Supporting Files */,
 			);
@@ -138,6 +352,7 @@
 		C1C69733186A89A500FE0D36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C1C69770186A89F000FE0D36 /* Images */,
 				C1C69734186A89A500FE0D36 /* PushThePenguin-Info.plist */,
 				C1C69735186A89A500FE0D36 /* InfoPlist.strings */,
 				C1C69738186A89A500FE0D36 /* main.m */,
@@ -162,6 +377,20 @@
 				C1C69759186A89A500FE0D36 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1C69770186A89F000FE0D36 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C14DD0F41883AE8A00216F2E /* LevelNode@2x.png */,
+				C14DD0F21883AC6500216F2E /* LevelBackground.png */,
+				C1C69771186A89F000FE0D36 /* Background@2x.png */,
+				C1C69772186A89F000FE0D36 /* NegativeNode@2x.png */,
+				C1C69773186A89F000FE0D36 /* Nest@2x.png */,
+				C1C69774186A89F000FE0D36 /* Penguin@2x.png */,
+				C1C69775186A89F000FE0D36 /* PositiveNode@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +469,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14DD0F31883AC6500216F2E /* LevelBackground.png in Resources */,
+				C14DD0F51883AE8A00216F2E /* LevelNode@2x.png in Resources */,
+				C1C69778186A89F000FE0D36 /* Nest@2x.png in Resources */,
+				C1C6977A186A89F000FE0D36 /* PositiveNode@2x.png in Resources */,
 				C1C69737186A89A500FE0D36 /* InfoPlist.strings in Resources */,
+				C1C69777186A89F000FE0D36 /* NegativeNode@2x.png in Resources */,
 				C1C6974A186A89A500FE0D36 /* Images.xcassets in Resources */,
-				C1C69748186A89A500FE0D36 /* Spaceship.png in Resources */,
+				C1C69776186A89F000FE0D36 /* Background@2x.png in Resources */,
+				C1C69779186A89F000FE0D36 /* Penguin@2x.png in Resources */,
 				C1C69740186A89A500FE0D36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,10 +497,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1C69746186A89A500FE0D36 /* MyScene.m in Sources */,
-				C1C69743186A89A500FE0D36 /* ViewController.m in Sources */,
+				C14DD0D11875451E00216F2E /* LevelNode.m in Sources */,
+				C14DD0F1187894B200216F2E /* LevelSelectViewController.m in Sources */,
 				C1C6973D186A89A500FE0D36 /* AppDelegate.m in Sources */,
+				C1C6976C186A89D400FE0D36 /* HomeScene.m in Sources */,
+				C14DD0CE1875450300216F2E /* Level.m in Sources */,
+				C1C6976B186A89D400FE0D36 /* GameScene.m in Sources */,
+				C14DD0CB1873490300216F2E /* ObstacleNode.m in Sources */,
+				C14DD0C318703B4900216F2E /* MagnetNode.m in Sources */,
 				C1C69739186A89A500FE0D36 /* main.m in Sources */,
+				C1C6976F186A89E600FE0D36 /* GameViewController.m in Sources */,
+				C14DD0D718754DE100216F2E /* HomeViewController.m in Sources */,
+				C14DD0EE1878873C00216F2E /* LevelSelectScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,8 +638,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PushThePenguin/PushThePenguin-Prefix.pch";
 				INFOPLIST_FILE = "PushThePenguin/PushThePenguin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,8 +654,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PushThePenguin/PushThePenguin-Prefix.pch";
 				INFOPLIST_FILE = "PushThePenguin/PushThePenguin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -476,6 +723,7 @@
 				C1C69762186A89A500FE0D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1C69763186A89A500FE0D36 /* Build configuration list for PBXNativeTarget "PushThePenguinTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +732,7 @@
 				C1C69765186A89A500FE0D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

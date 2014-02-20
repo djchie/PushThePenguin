@@ -7,12 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import "LevelSelectViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+//    LevelSelectViewController *levelSelectViewController = [[LevelSelectViewController alloc] init];
+//    
+//    [self.window setRootViewController:levelSelectViewController];
     return YES;
 }
 							
